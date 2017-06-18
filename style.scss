@@ -271,6 +271,54 @@ nav {
   }
 }
 
+// sssnpy - for pagination(not must?
+.pagination {
+  margin: 10px;
+  text-align: center;
+}
+
+// sssnpy - for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+// sssnpy - date of post not 
+.index-post-date {
+  font-style: italic;
+  color: $gray;
+  text-align: right;
+}
+.post-date {
+  font-style: italic;
+  color: $gray;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;

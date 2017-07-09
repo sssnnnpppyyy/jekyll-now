@@ -8,7 +8,7 @@ layout: default
   {% include post-tags.html %}
 
   <div class="post-date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%Y.%m.%d" }}
   </div>
   
   <div class="entry">
@@ -16,7 +16,7 @@ layout: default
   </div>
 
   <div class="post-date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ page.date | date: "%Y.%m.%d" }}
   </div>
 
   {% include disqus.html %}
